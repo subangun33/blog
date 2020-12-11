@@ -20,3 +20,13 @@
 .bg-gradien{
     background: linear-gradient(180deg, #009DFF 0%, #81D2FF 100%);
 }
+
+.arrow-slide {
+    position: absolute;
+    left: 92.5%;
+    right: 2.4%;
+    top: 48.09%;
+    bottom: 50.49%;
+
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}

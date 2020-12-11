@@ -3682,6 +3682,12 @@ footer {
 .font-white {
     color: #fff !important;
 }
+.font-brown {
+    color:#7C4C5B !important;
+}
+.font-pink {
+    color:#F53C76 !important;
+}
 
 
 /* checkout landing page */
@@ -3939,6 +3945,14 @@ footer {
 
 .sec-one {
     background: url(images/Subtract.png), linear-gradient(180deg, #00A5FF 0%, #81D2FF 100%);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: bottom;
+    padding: 1rem;
+}
+
+.sec-one-copy {
+    background: url(images/Subtracttt.png), linear-gradient(180deg, #00A5FF 0%, #81D2FF 100%);
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: bottom;
@@ -4765,6 +4779,11 @@ footer {
         padding: 5rem 5rem;
         height: 93vh;
     }
+    .sec-one-copy {
+        background-size: 100% auto;
+        padding: 5rem 5rem;
+        height: 93vh;
+    }
     .hide-on-mobile {
         display: block;
     }
@@ -5131,5 +5150,8 @@ footer {
     }
     .level-desc-list {
         padding-left: 20px;
+    }
+    .radius25 {
+        border-radius: 25px;
     }
 }
