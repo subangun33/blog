@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Boostrap Style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/main.css">
+
+
+</head>
+
+<body>
+    <!-- As a heading -->
+    <nav class="navbar bg-header justify-content-between">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img class="d-inline-block align-top" width="160" height="40" src="assets/images/logo.svg">
+            </a>
+            <a class="title" href="#">Blog</a>
+        </div>
+    </nav>
+
+    <ul class="breadcrumbs">
+        <div class="container"></div>
+        <li class="breadcrumbs__item">
+            <a href="#" class="breadcrumbs__item">Home</a>
+        </li>
+        <li class="breadcrumbs__item">
+            <a href="#" class="breadcrumbs__item">Kategori</a>
+        </li>
+        <li class="breadcrumbs__item">
+            <a href="#" class="breadcrumbs__item breadcrumbs__link--active">Apa perbedaan Ilustrator dan desain</a>
+        </li>
+        </div>
+    </ul>
+
+    <!--judul atas-->
+    <div class="col-md-8 ">
+        <div class="container">
+
+            <span class="new-font-1">Apa Perbedaan Ilustrator dan Desain!</span>
+        </div>
+
+        <!--Detail Halaman-->
+        <small class="align-middle text-muted"><i class="fas fa-home">Sekolah Desain</i></small>
+
+        <small class="align-middle text-muted"> update terakhir 25 Jun 2020</small>
+
+        <small class="align-middle text-muted"> 100 komentar</small>
+    </div>
+    </div>
+
+
+    <!--Membuat artikel tebaru-->
+    <ul>
+        <div class="col-md-4" style="float:right">
+            <div id="search-box">
+                <form action="/search" id="search-form" method="get" target="_top">
+                    <input id="search-text" name="q" placeholder="Search here..." type="text" />
+                    <button id="search-button" type="submit"><span>Search</span></button>
+                </form>
+                <br><b>Artikel Terbaru<b></br>
+
+                        <div class="col-md-12" style="place-content: center">
+                            <img src="assets/images/single.png" alt="" class="lazy lp-img-4">
+                            <small class="align-middle text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit.
+                                Sed dignissim, erat rhoncus finibus convallis, augue nisi tempus mauris, vitae varius
+                                orci arcu sit amet turpis.
+                                Duis dolor turpis, tristique eget mollis vel, blandit aliquam tortor. </small>
+                            <small><a href="#">Lihat Selengkapnya</a></small>
+                            <hr />
+                            <div class="col-md-12" style="place-content: center">
+                                <img src="assets/images/single.png" alt="" class="lazy lp-img-4">
+                                <small class="align-middle text-muted">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit.
+                                    Sed dignissim, erat rhoncus finibus convallis, augue nisi tempus mauris, vitae
+                                    varius orci arcu sit amet turpis.
+                                    Duis dolor turpis, tristique eget mollis vel, blandit aliquam tortor. </small>
+                                <small><a href="#">Lihat Selengkapnya</a></small>
+                                <hr />
+
+                            </div>
+    </ul>
+    <!--Gambar atas halaman-->
+    <div class="col-md-8" style="place-content: center">
+        <img src="assets/images/single.png" alt="" class="lazy lp-img-1">
+
+        <div class='artikel-terbaru'>
+            <script>
+                function artikelterbaru(e) { document.write("<ul>"); for (var t = 0; t < e.feed.entry.length; t++) { for (var r = 0; r < e.feed.entry[t].link.length && "alternate" != e.feed.entry[t].link[r].rel; r++); var n = "<li><a href=" + ("'" + e.feed.entry[t].link[r].href + "'") + '">' + e.feed.entry[t].title.$t + "</a> </li>"; document.write(n) } document.write("</ul>") }
+            </script>
+            <script src="/feeds/posts/summary/?max-results=8&alt=json-in-script&callback=artikelterbaru"></script>
+        </div>
+
+
+        <!--Konten-->
+        <div class="sec-two">
+            <div class="container content-1">
+                <div class="row">
+
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Sed dignissim, erat rhoncus finibus convallis, augue nisi tempus mauris, vitae varius orci arcu sit
+                    amet turpis.
+                    Duis dolor turpis, tristique eget mollis vel, blandit aliquam tortor.
+                    Pellentesque sit amet nibh at metus porta rutrum.
+                    Quisque malesuada nulla eu diam ultricies porttitor.
+                    Suspendisse vulputate enim id nisl cursus, eu luctus magna viverra.
+                    Sed dapibus ex et lorem lobortis semper. Ut non fringilla nunc.
+                    Praesent luctus libero id sapien ornare posuere.</p>
+
+                <p>Praesent eu tellus pulvinar mi interdum ultricies.
+                    Nullam ligula ligula, viverra eget elementum nec, bibendum nec nisi.
+                    Maecenas id ligula non justo suscipit feugiat vel convallis ligula.
+                    Nunc vel dui sit amet sem aliquam tristique interdum et nisi.
+                    Integer in rutrum quam. Quisque viverra tincidunt nisl at suscipit.
+                    Etiam fermentum nibh vitae ante pharetra fermentum.
+                    Pellentesque turpis arcu, molestie laoreet tellus quis, pellentesque efficitur ipsum.
+                    Duis id diam nec ex ornare tempor. Curabitur euismod diam ut scelerisque pulvinar.</p>
+
+                <p>Fusce commodo, justo ac faucibus lacinia, tortor enim eleifend lorem, vitae aliquet massa mi nec
+                    mauris.
+                    Vivamus efficitur, ligula ac rutrum tristique, mi sapien commodo mi, in euismod turpis est ut massa.
+                    Fusce pretium iaculis mollis. Praesent tellus libero, bibendum eget ex eget, aliquet vestibulum
+                    mauris.
+                    ed consequat erat vel leo porttitor, non hendrerit nibh vestibulum.
+                    Vestibulum feugiat posuere justo, sed viverra orci.
+                    Pellentesque mattis egestas massa maximus pharetra.
+                    Phasellus est neque, ultrices eu imperdiet sit amet, laoreet nec justo.
+                    Ut aliquet urna accumsan, pellentesque dolor ac, feugiat nisl. </p>
+
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+    <!--Tombol share-->
+    </div>
+    <div class="sec-two">
+        <div class="container content-1">
+
+            <p><b>Share :</b></p>
+
+            <a href="#" class="btn btn-info btn-lg"> Twitter<img src=""></a>
+            <a href="#" class="btn btn-primary btn-lg">Facebook</a>
+            <a href="#" class="btn btn-danger btn-lg">Google</a>
+        </div>
+    </div>
+    </div>
+    <hr />
+
+    <!--Komentar-->
+    <div class="container content-1">
+        <div>
+            <input type="text" name="name" id="name" value="" placeholder="Name">
+        </div>
+        <div>
+            <input type="email" name="email" id="email" value="" placeholder="Email">
+        </div>
+
+        <div>
+            <textarea name="comment" id="comment" placeholder="Komentar"></textarea>
+        </div>
+        <div>
+            <input type="submit" name="submit" value="Add Comment">
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>
