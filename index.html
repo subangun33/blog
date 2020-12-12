@@ -6,9 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Boostrap Style -->
+    <link rel="stylesheet" href="vendor/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="assets/main.css">
+    <title>
+        Blog
+    </title>
 </head>
 
 <body>
@@ -18,7 +22,7 @@
             <a class="navbar-brand" href="#">
                 <img class="d-inline-block align-top" width="160" height="40" src="assets/images/logo.svg">
             </a>
-                <a class="title" href="#">Blog</a>
+            <a class="title" href="#">Blog</a>
         </div>
     </nav>
     <section id="first-lp">
@@ -26,14 +30,16 @@
             <div class="container content-1">
                 <div class="row">
                     <div class="col-md-6 col-flex-center">
-                        <p class="lp-text-1 font-white text-index-up">Mulai Perjalananmu Menjadi <span
-                                class="new-font-1">Desainer Populer</span> Dari Sini</p>
+                        <p class="lp-text-1 font-white text-index-up text-justify"><span class="new-font-1">Tips</span>
+                            Dan<span class="new-font-1">Trik</span> </br>Seputar <span class="new-font-1">Desain</span>
+                        </p>
                     </div>
                     <div class="col-md-6 col-flex-center" style="place-content: center">
                         <img src="assets/images/header-img.png" alt="" class="lazy lp-img-1">
                     </div>
                     <div class="col 12 col-flex-center " style="place-content: center; margin-top: -2rem;">
-                        <a href="#sec-second" class="scroll-lp"><img src="assets/images/arrow-down.png" alt="" class="lazy"></a>
+                        <a href="#sec-second" class="scroll-lp"><img src="assets/images/arrow-down.png" alt=""
+                                class="lazy"></a>
                     </div>
                 </div>
             </div>
@@ -42,10 +48,178 @@
 
 
     <div id="sec-second" class="sec-two container">
-        <div class="col-12 text-center margin-lp-2">
+        <div class="col-12 text-center">
             <span class="new-font-1">Ide - Ide</span> <span class="new-font-5">Populer !</span>
         </div>
+        <!--Carousel Wrapper-->
+        <div id="class-carousel" class="carousel slide carousel-class" data-ride="carousel">
+            <!--Slides-->
+            <div class="row">
+                <div class="col-2 col-md-1 order-1  lp-arrow-class">
+                    <a class="btn-floating" href="#class-carousel" data-slide="prev"><img
+                            src="assets/images/btn-right.png" alt="" class="lazy lp-img-11"></a>
+                </div>
+                <div class="col-2 col-md-1 order-3 lp-arrow-class">
+                    <a class="btn-floating" href="#class-carousel" data-slide="next"><img
+                            src="assets/images/btn-left.png" alt="" class="lazy lp-img-11"></a>
+                </div>
+                <div class="carousel-inner p-md-5 col-md-10 col-8 order-2" style="background: #ffffff;" role="listbox">
+                    <!--First slide-->
+                    <div class="carousel-item active">
+                        <div class="card class-detail-lp">
+                            <div class="card-body p-0 d-md-flex">
+                                <div class="row">
+                                    <div class="col-md-12 col-lg-12">
+                                        <img src="assets/images/slider1.png" class="lp-img-9" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title text-white lp-text-7">Cara Menentukan Harga Sebuah Desain</h5>
+                                <p class="card-text text-white lp-text-6">Sudah membuat desain yang profesional  tetapi masih dihargai dengan harga teman ?</p>
+                                <center><a href="#" class="btn btn-warning text-white lp-text-6 radius25">Lihat Selengkapnya</a></center>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card class-detail-lp">
+                            <div class="card-body p-0 d-md-flex">
+                                <div class="row">
+                                    <div class="col-md-12 col-lg-12">
+                                        <img src="assets/images/slider1.png" class="lp-img-9" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title text-white lp-text-7">Cara Menentukan Harga Sebuah Desain</h5>
+                                <p class="card-text text-white lp-text-6">Sudah membuat desain yang profesional  tetapi masih dihargai dengan harga teman ?</p>
+                                <center><a href="#" class="btn btn-warning text-white lp-text-6 radius25">Lihat Selengkapnya</a></center>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--/.Slides-->
+        </div>
     </div>
+    </section>
+    <section id="lp-second">
+        <div class="col-12 text-center">
+            <span class="new-font-1 font-white">Anda Mencari</span> <span class="new-font-5 font-brown">Sesuatu ?</span>
+        </div>
+        <div class="row">
+            <div class="col-4 text-center">
+                <form>
+                    <select class="custom-select custom-select-lg mb-3 radius25 lp-text-6">
+                        <option selected>Semua</option>
+                        <option value="1">Vector</option>
+                        <option value="2">Ilustrator</option>
+                        <option value="3">Logo</option>
+                    </select>
+                </form>
+            </div>
+            <div class="col-8 text-center">
+                <form>
+                    <div class="input-group mb-3">
+                        <input class="form-control form-control-lg radius25 lp-text-6" type="text" placeholder="Masukan Kata Kunci">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text " id="basic-addon1"><a href=""><i class="fas fa-search"></i></a></span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-12 text-center">
+                <a href="#" class="btn btn-warning text-white lp-text-6 radius25">Cari</a>
+            </div>  
+        </div>
+        <div class="float-right">
+            <span class="text-white lp-text-6">Lihat Lebih Banyak</span>
+            <img class="rounded" height="50px" width="50px" src="assets/images/arrow-slide.png">
+        </div>
+        <br>
+    </section>
+    <section id="lp-six">
+        <div class="col-12 text-center">
+            <span class="new-font-1">Artikel</span><span class="new-font-5 font-pink">Terbaru</span>
+            <br>
+            <img src="assets/images/line-down.png">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">Perbedaan Ilustrator Dan Corel</h3>
+                            <p><img src="assets/images/corel.png" class="img-fluid" height="120px" width="120px"></p>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget aliquam elit. Mauris eu vulputate nunc, et tempus nulla. Aliquam faucibus, tortor at sagittis dignissim, ipsum metus tincidunt odio, ut fringilla leo nulla a lorem. Aliquam eu consequat risus. Vestibulum eleifend enim ac nisi iaculis luctus. Integer eu congue diam, eget porttitor lacus. Sed bibendum neque a nulla vulputate, a lacinia nisi accumsan.</p>
+                        </div>
+                        <div class="col-12 text-center">
+                            <a href="#" class="btn btn-warning text-white lp-text-6 radius25">Lihat Selengkapnya</a>
+                        </div>  
+                        <br>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">Berkenalan dengan Ilustrator</h3>
+                            <p><img src="assets/images/ai.png" class="img-fluid" height="120px" width="120px"></p>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget aliquam elit. Mauris eu vulputate nunc, et tempus nulla. Aliquam faucibus, tortor at sagittis dignissim, ipsum metus tincidunt odio, ut fringilla leo nulla a lorem. Aliquam eu consequat risus. Vestibulum eleifend enim ac nisi iaculis luctus. Integer eu congue diam, eget porttitor lacus. Sed bibendum neque a nulla vulputate, a lacinia nisi accumsan.</p>
+                        </div>
+                        <div class="col-12 text-center">
+                            <a href="#" class="btn btn-warning text-white lp-text-6 radius25">Lihat Selengkapnya</a>
+                        </div>  
+                        <br>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">Pemilihan warna Vector Art</h3>
+                            <p><img src="assets/images/vector.png" class="img-fluid" height="120px" width="120px"></p>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget aliquam elit. Mauris eu vulputate nunc, et tempus nulla. Aliquam faucibus, tortor at sagittis dignissim, ipsum metus tincidunt odio, ut fringilla leo nulla a lorem. Aliquam eu consequat risus. Vestibulum eleifend enim ac nisi iaculis luctus. Integer eu congue diam, eget porttitor lacus. Sed bibendum neque a nulla vulputate, a lacinia nisi accumsan.</p>
+                        </div>
+                        <div class="col-12 text-center">
+                            <a href="#" class="btn btn-warning text-white lp-text-6 radius25">Lihat Selengkapnya</a>
+                        </div>  
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                  <li class="page-item disabled">
+                    <a class="page-link" href="#" tabindex="-1">Previous</a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                  </li>
+                </ul>
+              </nav>
+        </div>
+    </section>    
+    <footer  style="margin-top:0" >
+        <div class="container">
+            <div class="container-footer">
+                <ul>
+                    <li><a href="https://www.sekolahdesain.id/why_sekdes">Tentang Kami</a> </li>
+                    <li><a href="https://www.sekolahdesain.id/user-guide">Panduan Pengguna</a> </li>
+                    <li><a href="https://www.sekolahdesain.id/contact">Kontak Kami</a> </li>
+                    <li><a href="https://www.sekolahdesain.id/kebijakan">Kebijakan Privasi</a> </li>
+                    <li><a href="https://www.sekolahdesain.id/sk">Syarat & ketentuan</a> </li>
+                </ul>
+            </div>
+            <div class="container-footer-second">
+                <ul>
+                    <li>© Copyright 2020</li>
+                    <li> • Sekolah Desain</li>
+                    <li> • Semua Bisa Desain!</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.min.js"></script>
 </body>
