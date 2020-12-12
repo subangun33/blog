@@ -20,3 +20,99 @@
 .bg-gradien{
     background: linear-gradient(180deg, #009DFF 0%, #81D2FF 100%);
 }
+
+
+        .breadcrumbs{
+            padding: 10px;
+            font-family:'kalam', sans-serif;
+        }
+
+        .breadcrumbs__item{
+            display: inline-block;
+        }
+        .breadcrumbs__item:not(:last-of-type)::after{
+            content: '/';
+            margin: 0 5px;
+            color: #cccccc;
+        }
+
+        .breadcrumbs__link{
+            text-decoration: none;
+            color: #999999;
+        }
+        .breadcrumbs__link:hover{
+            text-decoration: underline;
+
+        }
+        .breadcrumbs__link--active{
+            color: #009578;
+            font-weight: 500;
+        }
+       
+    .button {
+      background-color: #4CAF50; /* Green */
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+
+    #search-box {position: relative;
+        width: 100%;margin: 10px 0 0 0;
+    }
+    #search-form {height: 
+        40px;border: 1px 
+        solid #999;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        background-color: #fff;
+        overflow: hidden;
+    }
+        #search-text 
+        {font-size: 14px;
+            color: #ddd;
+            border-width: 0;
+            background: transparent;
+        }
+        #search-box input
+        [type="text"]
+        {width: 90%;
+            padding: 11px 0 12px 1em;
+            color: #333;outline: 
+            none;
+        }
+        #search-button 
+        {position: absolute;
+            top: 0;
+            right: 0;
+            height: 42px;
+            width: 80px;
+            font-size: 14px;
+            color: #fff;
+            text-align: center;
+            line-height: 42px;
+            border-width: 0;
+            background-color: #4d90fe;
+            -webkit-border-radius: 0px 5px 5px 0px;
+            -moz-border-radius: 0px 5px 5px 0px;
+            border-radius: 0px 5px 5px 0px;
+            cursor: pointer;
+        }
+
+        #box1{
+            width:150px;
+            height:150px;
+            background:green;
+            border:solid 3px black;
+        }
+        #box2{
+            width:230px;
+            height:230px;
+            background:#ef2626;
+            border:solid 6px #efe825;
